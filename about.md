@@ -1,7 +1,11 @@
 ---
 layout: page
-title: About me 
-permalink: /about/
+title: About 
+permalink: /about
 ---
+ 
+{% highlight ruby %}
+jennykao@github.io:~$ whoami?
+{% endhighlight %}
 
-This is a static page. It could be an 'about page' if you'd like.
+Coming soon...

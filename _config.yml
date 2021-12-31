@@ -1,13 +1,14 @@
 name: Jenny Kao
-description: just another blog
+author: Jenny Kao
+description: "there is always more to learn"
 meta_description: "blogging about stuffs"
 remote_theme: rosario/kasper
 markdown: kramdown
-highlighter: rouge
 logo: false
 paginate: 15
-baseurl: "/home"
-domain_name: "http://jennymhkao.github.io"
+baseurl: ""
+url: https://jennymhkao.github.io
+domain_name: http://jennymhkao.github.io
 google_analytics: "UA-XXXXXXXX-X"
 
 # Details for the RSS feed generator
@@ -20,6 +21,8 @@ disqus-shortname: ""
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-github-metadata
+  # - jekyll-titles-from-headings
   # - jekyll-sitemap
-  # - jekyll-seo-tag
-  # - jekyll-paginate
+  # - jekyll-seo-tag 

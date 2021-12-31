@@ -11,6 +11,7 @@ gem "webrick", "~> 1.7"
 
 group :jekyll_plugins do
     gem "jekyll-feed", "~> 0.12"
+    # gem "jekyll-titles-from-headings"
     # gem 'jekyll-sitemap'
     # gem 'jekyll-seo-tag', '~>2.7.1'
   end

@@ -1,3 +1,3 @@
-## Jenny Kao
+### my startpage
 
-My website using Jekyll theme Kasper.  
+I used a Jekyll theme Kasper found here: https://github.com/rosario/kasper
