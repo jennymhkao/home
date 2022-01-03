@@ -1,3 +1,5 @@
-### my startpage
+### My Homepage
 
-I used a Jekyll theme Kasper found here: https://github.com/rosario/kasper
+Welcome [here](jennymhkao.github.io/).
+
+I used the Jekyll Kasper theme found [here](https://github.com/rosario/kasper).
