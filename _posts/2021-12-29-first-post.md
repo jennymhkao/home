@@ -2,20 +2,52 @@
 layout: post
 title:  "blogging with Jekyll"
 date:   2021-12-30 10:46:00
-categories: existence
+categories: learning
 ---
+<br />
+I finally spent some time to learn how to host my blog on Github using Jekyll, a Static Site Generator (SSG). This blog is using Jekyll. As I was learning about its architecture, I asked myself why I didn't get started on a Github hosted blog sooner. I could go into a myriad of things I've done and go down that rabbit hole instead, but let's just say, the second best time is now.
 
-I might be late into the game just starting up my first blog post using a Static Site Generator (SSG) like Jekyll and hosting it on Github. As I was solving one problem after another, trying to understand the Jekyll architecture, I asked myself why didn't I do this sooner? But I could go into a myriad of things I've done instead and go down that rabbit hole, but let's just say the second best time is now.
+It took me nearly 3 days during my winter break to learn Jekyll. Here were the hurdles and tips I learned along the way:
 
-It took me nearly 3 full days during my lovely, relaxing winter break with lots of rest, to learn the complexities of Jekyll. I'm now proud to say I know a bit about Jekyll and more about git. This was time well spent.
+1. <b>Front Matter</b>
+<br />
+It is the first block of key-value pairs you see in a file that uses YAML, which configures files and is in between triple-dashes like so:
 
-Hurdles and tips I learned along the way by difficulty:
+{% highlight ruby %}
+---
+layout: post
+title: my blog
+---
+{% endhighlight %}
 
-1. front matter
-2. _config.yml
-3. gemfile and ruby
-4. local file structure 
+2. <b>File _config.yml</b>
+<br />
+This is one of the most important files since it is used to customize how your site is built. You can configure the settings in this file like the type of theme and plugins you want. 
 
-Now I'm loving the Jekyll SSG because I can focus on content and post random thoughts, things I know, love and have seen with my brain goggles.
+While I wanted to use one of many customized Jekyll themes, it took me an endless amount of time googling and reading to figure out that all I needed to do was add the name of the theme in the form of the creator's name and their theme's github repo like so:
 
-namaste.
+{% highlight ruby %}
+remote_theme: rosario/kasper
+{% endhighlight %}
+
+Assuming I have downloaded the Kasper theme files and dragged them in my blog directory on my computer.
+
+3. <b>Gemfile and Ruby</b>
+<br />
+This is essential for running Ruby programs. The Gemfile holds all the gems that you want to include in your project. It's used with bundler to install, update, remove, and manage your Ruby gem dependencies. Once you run the `bundle install` in the command line, a Gemfile.lock file will appear in your directory, which by the way, could be deleted, if your website doesn't render the first time. You would have to run `bundle update` if removed.
+
+4. <b>Local file structure</b>
+<br />
+If you decide to use a customized Jekyll theme, the files you want to keep are Gemfile, _config.yml, _posts, _includes, _layouts, _sass, _site, assets, .jekyll-cache. The first two files can be configured. 
+
+After organizing the files, you can start writing content in _posts, where the files are in markdown or html extensions. Make sure the name of the file is in the following format:
+
+{% highlight ruby %}
+yyyy-mm-dd-name.md 
+{% endhighlight %}
+
+Here is the full [Jekyll](https://jekyllrb.com/docs/) documentation.
+
+That's it. I'm now proud to say I know a bit about Jekyll and have a personal website up in the process. This was time well spent.
+
+--namaste.

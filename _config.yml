@@ -1,14 +1,14 @@
-name: Jenny Kao
+name: The Basics
 author: Jenny Kao
-description: "there is always more to learn"
+description: "Jenny Kao"
 meta_description: "blogging about stuffs"
 remote_theme: rosario/kasper
 markdown: kramdown
 logo: false
 paginate: 15
 baseurl: ""
-# url: https://jennymhkao.github.io
-# domain_name: http://jennymhkao.github.io
+url: https://jennymhkao.github.io
+domain_name: http://jennymhkao.github.io
 google_analytics: "UA-XXXXXXXX-X"
 
 # Details for the RSS feed generator
