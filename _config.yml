@@ -1,6 +1,6 @@
 name: The Basics
 author: Jenny Kao
-description: "My blog about stuff"
+description: "Jenny Kao"
 meta_description: "blogging about stuffs"
 remote_theme: rosario/kasper
 markdown: kramdown
@@ -15,7 +15,7 @@ google_analytics: "UA-XXXXXXXX-X"
 url: ""
 author: "Jenny Kao"
 title: "The Basics"
-description: "My blog about stuff"
+description: "Jenny Kao"
 
 # Disqus config
 disqus-shortname: ""
