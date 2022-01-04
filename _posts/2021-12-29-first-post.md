@@ -50,6 +50,6 @@ yyyy-mm-dd-fileName.md
 
 Here is the full [Jekyll](https://jekyllrb.com/docs/) documentation.
 
-That wraps it up. I'm proud to say I know a bit about Jekyll and have a simple site up in the process. It was time well spent.
+That wraps it up. I'm proud of myself for learning Jekyll and having a simple site up in the process. It was time well spent.
 
---namaste.
+-- JK

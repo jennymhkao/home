@@ -1,6 +1,6 @@
 ### My Homepage
 
-Welcome [here](https://jennymhkao.github.io) to my site. It's where I share things I've learned and random ideas.
+Welcome to my site [here](https://jennymhkao.github.io). It's where I share things I've learned and random thoughts.
 
 ### Licensing
 
