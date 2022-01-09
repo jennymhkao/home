@@ -5,7 +5,7 @@ permalink: /about
 ---
  
 {% highlight ruby %}
-jennykao@github.io:~$ whoami?
+whoami?
 {% endhighlight %}
 
-Coming soon...
+I'm a human with exceptional taste.

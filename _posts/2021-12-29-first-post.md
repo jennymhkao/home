@@ -30,7 +30,7 @@ While I wanted to use one of many customized Jekyll themes, it took me an endles
 remote_theme: rosario/kasper
 {% endhighlight %}
 
-Assuming I have downloaded the Kasper theme files and dragged them in my working directory.
+Assuming I downloaded the Kasper theme files and dragged them in my working directory.
 
 3. <b>Gemfile and Ruby</b>
 <br />
