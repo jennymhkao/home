@@ -8,4 +8,4 @@ permalink: /about
 whoami?
 {% endhighlight %}
 
-I'm a human with exceptional taste.
+I'm a human with exquisite tastes.
