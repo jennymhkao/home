@@ -16,7 +16,7 @@ Couple of lithium cell batteries. One for each side of the earrings.
 We had to figure out which side of the LED was the anode (long-side) of the wire. Then, bending the anode side slightly, I lined up another LED with the same side. 
 ![Illustrate](/assets/images/graphics.png)
 
-We used a soldering iron and soldering wire to solder the end of the legs together. Soldering them together one-by-one and to the earring hook, it slowly turned into a beautiful masterpiece. The wires together become slots to hold the lithium battery cell.
+We used a soldering iron and soldering wire to solder the end of the legs together. Soldering them together one-by-one and to the earring hook, it slowly turned into a beautiful masterpiece. The wires together are shaped into slots to hold the lithium battery cell.
 ![Assemble](/assets/images/earrings-3.png)
 
 And Voila! Earrings are charged and ready to party. 
