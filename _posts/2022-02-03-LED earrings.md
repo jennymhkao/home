@@ -10,7 +10,7 @@ Sometime in 2019, I attended a workshop in Hong Kong hosted by Dim Sum Labs, a m
 To start, we had light-emitting diodes (LEDs).
 ![LED](/assets/images/earrings-1.png)
 
-Couple of lithium cell batteries. One for each side of the earrings.
+Couple of lithium cell batteries. One for each side of the earring pair.
 ![Battery](/assets/images/earrings-2.png)
 
 We had to figure out which side of the LED was the anode (long-side) of the wire. Then, bending the anode side slightly, I lined up another LED with the same side. 
