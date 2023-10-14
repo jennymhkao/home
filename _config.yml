@@ -1,0 +1,30 @@
+name: The Basics
+author: Jenny Kao
+description: "Jenny Kao"
+meta_description: "blogging about stuffs"
+remote_theme: rosario/kasper
+markdown: kramdown
+logo: false
+paginate: 10
+baseurl: ""
+url: https://jennymhkao.github.io
+domain_name: http://jennymhkao.github.io
+google_analytics: "UA-XXXXXXXX-X"
+
+# Details for the RSS feed generator
+url: ""
+author: "Jenny Kao"
+title: "The Basics"
+description: "Jenny Kao"
+
+# Disqus config
+disqus-shortname: ""
+
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-github-metadata
+  # - jekyll-titles-from-headings
+  # - jekyll-sitemap
+  # - jekyll-seo-tag 
