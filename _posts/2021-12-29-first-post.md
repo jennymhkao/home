@@ -5,7 +5,7 @@ date:   2021-12-30 10:46:00
 categories: learning
 ---
 <br />
-I finally spent some time learning how to host my blog on Github using Jekyll, a Static Site Generator (SSG). This blog is using Jekyll. As I was learning about its architecture, I asked myself why I didn't get started on a Github hosted blog sooner. I could go into a myriad of things I've done and go down that rabbit hole, but let's just say, the second best time is now.
+I finally spent some time learning how to host my blog on Github using Jekyll, a Static Site Generator (SSG). This blog is using Jekyll.
 
 It took me nearly 3 days during my winter break to learn Jekyll. Here were the hurdles and tips I learned along the way:
 
