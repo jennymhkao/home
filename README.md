@@ -1,10 +1,10 @@
 <<<<<<< HEAD
 # jennykao.github.io
 My blog
-=======
+
 ### My Homepage
 
-Welcome to my site [here](https://jennymhkao.github.io). It's where I share things I've learned and random thoughts.
+Welcome to my blog [here](https://jennymhkao.github.io). I share things I've learned, random thoughts, and interests.
 
 ### Licensing
 
