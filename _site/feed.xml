@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Basics</title>
+    <description>Jenny Kao</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 03 Feb 2022 12:26:16 -0800</pubDate>
+    <lastBuildDate>Thu, 03 Feb 2022 12:26:16 -0800</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>LED earrings</title>
+        <description>&lt;p&gt;&lt;br /&gt;
+Sometime in 2019, I attended a workshop in Hong Kong hosted by Dim Sum Labs, a maker’s studio/hackerspace, and turned some LED lights into spectacular earrings. It was neat seeing how it was my first time soldering something.&lt;/p&gt;
+
+&lt;p&gt;To start, we had light-emitting diodes (LED).
+&lt;img src=&quot;/assets/images/earrings-1.png&quot; alt=&quot;LED&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Couple of lithium cell batteries. One for each pair.
+&lt;img src=&quot;/assets/images/earrings-2.png&quot; alt=&quot;Battery&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We had to figure out which side of the LED was the anode (long-side) of the wire. Then, bending the anode side slightly, I lined up another LED with the same side. 
+&lt;img src=&quot;/assets/images/graphics.png&quot; alt=&quot;Illustrate&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We used a soldering iron and soldering wire to solder the end of the legs together. Soldering them together one-by-one, and to the earring hook, it slowly turned into a beautiful masterpiece. The wires together become slots to hold the lithium battery cell.
+&lt;img src=&quot;/assets/images/earrings-3.png&quot; alt=&quot;Assemble&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And Voila! Earrings are charged and ready to party. 
+&lt;img src=&quot;/assets/images/earrings-4.png&quot; alt=&quot;Earrings&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 03 Feb 2022 04:36:00 -0800</pubDate>
+        <link>http://localhost:4000/learning/2022/02/03/LED-earrings.html</link>
+        <guid isPermaLink="true">http://localhost:4000/learning/2022/02/03/LED-earrings.html</guid>
+        
+        
+        <category>learning</category>
+        
+      </item>
+    
+      <item>
+        <title>meditations</title>
+        <description>&lt;p&gt;&lt;br /&gt;
+Among the truths you will do well to contemplate most frequently are these two: first, that things can never touch the soul, but stand enert outside it, so that disquiet can arise only from fancies within; and secondly, that all visible objects change in a moment, and will be no more. Think of the countless changes in which you yourself have had a part. The whole universe is change, and life itself is but what you deem it. - Marcus Aurelius&lt;/p&gt;
+
+&lt;p&gt;There were times when I thought I couldn’t learn a new language, apply a new skill, teach, or do something outside my comfort zone. But I trusted the journey and I’m still thriving.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 08 Jan 2022 03:05:00 -0800</pubDate>
+        <link>http://localhost:4000/thoughts/2022/01/08/meditations.html</link>
+        <guid isPermaLink="true">http://localhost:4000/thoughts/2022/01/08/meditations.html</guid>
+        
+        
+        <category>thoughts</category>
+        
+      </item>
+    
+      <item>
+        <title>blogging with Jekyll</title>
+        <description>&lt;p&gt;&lt;br /&gt;
+I finally spent some time learning how to host my blog on Github using Jekyll, a Static Site Generator (SSG). This blog is using Jekyll. As I was learning about its architecture, I asked myself why I didn’t get started on a Github hosted blog sooner. I could go into a myriad of things I’ve done and go down that rabbit hole, but let’s just say, the second best time is now.&lt;/p&gt;
+
+&lt;p&gt;It took me nearly 3 days during my winter break to learn Jekyll. Here were the hurdles and tips I learned along the way:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;b&gt;Front Matter&lt;/b&gt;
+&lt;br /&gt;
+It is the first block of key-value pairs you see in a file that uses YAML, which configures files and is in between triple-dashes like so:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;layout: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;title: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;my&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blog&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;b&gt;File _config.yml&lt;/b&gt;
+&lt;br /&gt;
+This is one of the most important files since it is used to customize how your site is built. You can configure the settings in this file like the type of theme and plugins you want.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;While I wanted to use one of many customized Jekyll themes, it took me an endless amount of time googling and reading to figure out that all I needed to do was add the name of the theme in the form of the creator’s name and their theme’s github repo like so:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;remote_theme: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rosario&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;kasper&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Assuming I downloaded the Kasper theme files and dragged them in my working directory.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;b&gt;Gemfile and Ruby&lt;/b&gt;
+&lt;br /&gt;
+This is essential for running Ruby programs. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; holds all the gems that you want to include in your project. It’s used with bundler to install, update, remove, and manage your Ruby gem dependencies.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Once you run the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; in the command line, a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile.lock&lt;/code&gt; file will appear in your directory. It’s like a vault where all the dependencies are stored. I had to delete it and run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; again since this website wasn’t rendering locally at first.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;b&gt;Local file structure&lt;/b&gt;
+&lt;br /&gt;
+If you decide to use a customized Jekyll theme, the files you want to keep are Gemfile, _config.yml, _posts, _includes, _layouts, _sass, _site, assets, .jekyll-cache. The first two files can be configured.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;After organizing the files, you can start writing your content in _posts, where the files are in markdown or html extensions. Make sure the name of the file is in the following format:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;yyyy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mm&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fileName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;md&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Here is the full &lt;a href=&quot;https://jekyllrb.com/docs/&quot;&gt;Jekyll&lt;/a&gt; documentation.&lt;/p&gt;
+
+&lt;p&gt;That wraps it up. I’m proud of myself for learning Jekyll and having a simple site up in the process. It was time well spent.&lt;/p&gt;
+
+&lt;p&gt;– JK&lt;/p&gt;
+</description>
+        <pubDate>Thu, 30 Dec 2021 02:46:00 -0800</pubDate>
+        <link>http://localhost:4000/learning/2021/12/30/first-post.html</link>
+        <guid isPermaLink="true">http://localhost:4000/learning/2021/12/30/first-post.html</guid>
+        
+        
+        <category>learning</category>
+        
+      </item>
+    
+      <item>
+        <title>new years resolution</title>
+        <description>&lt;p&gt;As cliche as this sounds, I’m writing my new years resolution here at the end of 2021.&lt;/p&gt;
+
+&lt;p&gt;I’ve always had a wide range of interests, and still do. But my problem is that I tend to skim the top layers of concepts and ideas. I can’t stick to one thing and complete a pet project. So my main goal for the new year is to stay consistent with my projects.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Practice creativitiy
+&lt;br /&gt;
+Experiment with some art and designs. I have to remind myself it doesn’t have to be perfect.&lt;/li&gt;
+  &lt;li&gt;Keep adding to my skills
+&lt;br /&gt;
+Keep working on projects I’m passionate about.&lt;/li&gt;
+  &lt;li&gt;Practice yoga
+&lt;br /&gt;
+I will meditate and be kind to myself.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;– JK&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 30 Dec 2021 02:31:00 -0800</pubDate>
+        <link>http://localhost:4000/goals/2021/12/30/welcome!.html</link>
+        <guid isPermaLink="true">http://localhost:4000/goals/2021/12/30/welcome!.html</guid>
+        
+        
+        <category>goals</category>
+        
+      </item>
+    
+  </channel>
+</rss>
