@@ -24,7 +24,7 @@ title: my blog
 <br />
 This is one of the most important files since it is used to customize how your site is built. You can configure the settings in this file like the type of theme and plugins you want. 
 
-While I wanted to use one of many customized Jekyll themes, it took me an endless amount of time googling and reading to figure out that all I needed to do was add the name of the theme in the form of the creator's name and their theme's github repo like so:
+While I wanted to use one of many customized Jekyll themes, it took a while figure out that all I needed to do was add the name of the theme in the form of the creator's name and their theme's github repo like so:
 
 {% highlight ruby %}
 remote_theme: rosario/kasper
@@ -50,6 +50,6 @@ yyyy-mm-dd-fileName.md
 
 Here is the full [Jekyll](https://jekyllrb.com/docs/) documentation.
 
-That wraps it up. I'm proud of myself for learning Jekyll and having a simple site up in the process. It was time well spent.
+That wraps it up.
 
 -- JK
