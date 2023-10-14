@@ -2,7 +2,7 @@
 layout: post
 title:  "typography shapes the visual space"
 date:   2023-10-14 14:55:00
-categories: design
+categories: learning
 ---
 <br />
 Typefaces are pervasive everywhere, but we aren't consciously aware of how they affect the way we view the world, and how we are ultimately defined by them. Helvetica has a universal application in marketing brands and labels. 
