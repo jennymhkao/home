@@ -5,7 +5,7 @@ date:   2023-10-14 14:55:00
 categories: thoughts
 ---
 <br />
-Typefaces are pervasive everywhere, but we aren't consciously aware of how they affect the way we view the world, and how we are ultimately defined by them. Helvetica has a universal application in marketing brands and labels. 
+Typefaces are pervasive everywhere, but we aren't consciously aware of how they affect the way we view the world, and how we are ultimately defined by them.
 
 Until the 1950’s, typography involved a great deal of cutting and engraving letters fashioned out of steel that was used for making stamps. Typography encompasses both the typeface and the negative (white) spaces in between the black outlines. Together these elements convey certain subtleties within the typeface arrangements and communicate the underlying intentions of the designer. A good typographer is sensitive about the distance between the characters of the letter matrix. 
 
