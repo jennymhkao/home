@@ -2,7 +2,7 @@
 layout: post
 title:  "typography"
 date:   2023-10-14 14:55:00
-categories: thoughts
+categories: design
 ---
 <br />
 Typefaces are pervasive everywhere, but we aren't consciously aware of how they affect the way we view the world, and how we are ultimately defined by them.
@@ -17,4 +17,4 @@ The reluctance of designers to use eccentric and cursive styles in old brochures
 
 Since its emergence in 1957, Helvetica is the most well known typeface in the world due to its legibility. Helvetica does not hold any meaning in and of itself, but rather facilitates the reading process and communicates context more explicitly and directly. Some designers argue that Helvetica is difficult to improve because of its general appeal. It’s characterized by a horizontal and vertical slicing of the terminal endings. The American Airlines logo is a prime example of Helvetica’s appeal and utility as a corporate marketing tool. American Airlines has not changed their logographic identity in the last 50 years because of its impeccable aesthetic quality.
 
-There is a very thin line between a design that is simple, clean, and a design that is powerful, simple, clean, and boring. Steve Jobs was a proponent of this. It's up to us to interpret typefaces as either a powerful one that speaks to us, or as one that has no effect.
+There is a very thin line between a design that is simple, clean, and a design that is powerful, simple, clean, and boring. It's up to us to interpret typefaces as either a powerful one that speaks to us, or as one that has no effect.
